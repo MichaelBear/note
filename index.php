@@ -10,7 +10,7 @@ $resule = mysql_query($sql,$q);
 
 <html>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html;utf-8" />
 
 <body>
 

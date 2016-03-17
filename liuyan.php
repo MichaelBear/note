@@ -2,7 +2,7 @@
 
 <body>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html;utf-8" />
 
 <table width="678" align="center">
 

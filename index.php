@@ -1,18 +1,18 @@
+<html>
+
+<meta http-equiv="Content-Type" content="text/html ; charset=utf8_decode" /> 
+
+<body>
+
 <?php
 
 include("config.php"); //引入数据库连接文件
 
-$sql = "select * from content"; //搜索数据表content
+$sql = "SELECT * FROM content"; //搜索数据表content
 
 $resule = mysql_query($sql,$q);
 
 ?>
-
-<html>
-
-<meta http-equiv="Content-Type" content="text/html;utf-8" />
-
-<body>
 
 <table width="678" align="center">
 
@@ -30,9 +30,7 @@ $resule = mysql_query($sql,$q);
 
 </table>
 
-<p>
-
-<?
+<?php
 
 while($row=mysql_fetch_array($resule))
 
@@ -40,21 +38,20 @@ while($row=mysql_fetch_array($resule))
 
 ?>
 
-</p>
 
 <table width="678" border="1" align="center" cellpadding="1" cellspacing="1">
 
 <tr>
 
-<td width="178">Name:<? echo $row[1] ?></td>
+<td width="178">Name:<?php echo $row[1] ?></td>
 
-<td width="223">Email:<? echo $row[2] ?></td>
+<td width="223">Email:<?php echo $row[2] ?></td>
 
 </tr>
 
 <tr>
 
-<td colspan="4"><? echo $row[3] ?></td>
+<td colspan="4"><?php echo $row[3] ?></td>
 
 </tr>
 
@@ -62,11 +59,12 @@ while($row=mysql_fetch_array($resule))
 
 </table>
 
-<?
+<?php
 
 }
 
 ?>
+
 
 </body>
 

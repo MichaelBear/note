@@ -2,7 +2,10 @@
 
 <meta http-equiv="Content-Type" content="text/html ; charset=utf8_decode" /> 
 
-<body>
+<body  style="background-image:url('http://ww4.sinaimg.cn/large/62751d77jw1f00ba417yag20du0fyn3s.gif');
+background-repeat: repeat;
+background-attachment: fixed;
+background-position  : center top;">
 
 <?php
 

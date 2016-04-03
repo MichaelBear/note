@@ -1,6 +1,6 @@
 <html>
 
-<meta http-equiv="Content-Type" content="text/html ; charset=utf8_decode" /> 
+<meta http-equiv="Content-Type" content="text/html ; charset=utf8" /> 
 
 <body>
 
